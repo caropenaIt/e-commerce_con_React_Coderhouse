@@ -1,0 +1,28 @@
+/* filename: src/components/ItemCount/ItemCount.module.css */
+
+.itemCountContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    margin-top: 1rem;
+}
+
+.counterControls {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.countButton {
+    padding: var(--count-button-padding);
+    font-size: var(--count-display-font-size);
+}
+
+.countDisplay {
+    color: var(--lightest-color);
+}
+.button:hover{
+background-color: gold;
+}

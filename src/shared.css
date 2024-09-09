@@ -1,0 +1,47 @@
+/* filename: src/shared.css */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
+:root {
+    --secondary-bg-color: rgb(239, 184, 16);
+    --accent-color: gold;
+    --primary-text-color: #908d96;
+    --text-color: var(--primary-text-color);
+    --border-radius: 12px;
+    --lightest-color: white;
+    --line-height: 1.6;
+    --padding-standard: 0.5rem;
+    --margin-standard: 1rem 0;
+    --margin-large: 2rem auto;
+    --btn-padding: 0.5rem 1rem;
+    --cart-color: white;
+    --nav-button-spacing: 1.5rem;
+    --button-margin: 5px;
+    --count-button-padding: 0.3rem 0.6rem;
+    --count-display-font-size: 1rem;
+}
+
+* {
+    background-color: rgb(17, 6, 6);
+    color: whitesmoke;
+    font-family: "Playfair Display", sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 12;
+}
+
+
+
+.ui-container {
+    border-radius: var(--border-radius);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+span{
+    width: 20px;
+    height: 25px;
+    border-radius: 15px;
+    background-color: rgb(239, 184, 16);
+}

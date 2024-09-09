@@ -1,15 +1,16 @@
-import cart from './assets/carrito.png';
+// filename: src/components/CartWidget/CartWidget.jsx
+
+import { useState } from 'react';
+import cart from './assets/cart.jpg';
+import styles from './CartWidget.module.css';
 
 export const CartWidget = () => {
-    return (
-    
-        <div className="cart-widget-container">
-            <img src={cart} alt="imagen-carrito" className='carrito' />
-            <span>0</span>
-        </div>
-    
-    )
-    
-}
+    const [itemCount] = useState(0);
 
-export default CartWidget;
+    return (
+        <div className={styles.cartWidgetContainer}>
+            <img src={cart} className={styles.carrito} alt="Shopping cart icon" />
+            <span className={styles.counter}>{itemCount}</span>
+        </div>
+    );
+}

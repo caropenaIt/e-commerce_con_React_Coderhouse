@@ -1,0 +1,9 @@
+/* filename: src/components/ItemsListContainer/ItemsListContainer.module.css */
+
+
+.mensaje {
+    font-size: 1.8rem;
+    color: var(--lightest-color);
+    margin-bottom: 1rem;
+    text-align: center;
+}

@@ -1,0 +1,7 @@
+/* filename: src/components/ItemList/ItemList.module.css */
+.itemList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}

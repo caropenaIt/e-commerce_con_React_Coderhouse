@@ -1,0 +1,20 @@
+/* filename: src/components/CartWidget/CartWidget.module.css */
+
+.cartWidgetContainer {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.counter {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.carrito{
+    width: 80px;
+    height: 80px;
+    background-color: none;
+    filter: invert(1);
+}
