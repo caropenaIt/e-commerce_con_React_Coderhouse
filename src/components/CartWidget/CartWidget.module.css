@@ -1,9 +1,9 @@
 /* filename: src/components/CartWidget/CartWidget.module.css */
-
 .cartWidgetContainer {
     display: flex;
     align-items: center;
     position: relative;
+
 }
 
 .counter {
@@ -12,9 +12,9 @@
     justify-content: center;
     
 }
-.carrito{
-    width: 80px;
-    height: 80px;
+.cartWidgetContainer img{
+    width: 70px;
+    height: 70px;
     background-color: none;
     filter: invert(1);
 }

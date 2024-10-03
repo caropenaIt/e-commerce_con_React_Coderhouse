@@ -3,12 +3,16 @@
 import { Item } from '../Item/Item';
 import styles from './ItemList.module.css';
 
-export function ItemList({ products }) {
+export function ItemList({ products = [] }) {
     return (
         <div className={styles.itemList}>
-            {products.map(product => (
-                <Item key={product.id} {...product} />
-            ))}
+            {products.length > 0 ? (
+                products.map(product => (
+                    <Item key={product.id} {...product} />
+                ))
+            ) : (
+                <p>No products available.</p>
+            )}
         </div>
     );
 }

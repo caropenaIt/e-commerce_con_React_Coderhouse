@@ -1,43 +1,43 @@
 .navContainer {
-display: flex;
-align-items: center;
-justify-content: space-around;
-gap: 20px;
-}
-
-.navbarLogo {
-    width: 100px;
-    height: 100px;
-}
-.navbarLogo:hover{
-    scale: 1.4;
-}
-.navLinks {
     display: flex;
     align-items: center;
-    justify-content: center;
-    gap: 30px;
-    background-color: var(--secondary-bg-color);
-    width: 700px;
-    border-radius: var(--border-radius);
-}
-
-.navLink {
-    color: var(--lightest-color);
-    text-decoration: none;
-    padding: var(--btn-padding);
-    border-radius: var(--border-radius);
-    background-color: var(--secondary-bg-color);
-    transition: background-color var(--btn-transition);
-}
-
-.navLink:hover {
-    background-color: var(--accent-color);
-}
-
-.active {
-    color: var(--lightest-color);
-    font-weight: bold;
-    box-shadow: 2px 2px 2px 4px orangered;
-    border-bottom: 2px solid orangered;
-}
+    justify-content: space-around;
+    gap: 20px;
+    }
+    
+    .navbarLogo {
+        width: 100px;
+        height: 100px;
+    }
+    .navbarLogo:hover{
+        scale: 1.4;
+    }
+    .navLinks {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+        background-color: var(--secondary-bg-color);
+        width: 700px;
+        border-radius: var(--border-radius);
+    }
+    
+    .navLink {
+        color: var(--lightest-color);
+        text-decoration: none;
+        padding: var(--btn-padding);
+        border-radius: var(--border-radius);
+        background-color: var(--secondary-bg-color);
+        transition: background-color var(--btn-transition);
+    }
+    
+    .navLink:hover {
+        background-color: var(--accent-color);
+    }
+    
+    .active {
+        color: var(--lightest-color);
+        font-weight: bold;
+        box-shadow: 2px 2px 2px 4px orangered;
+        border-bottom: 2px solid orangered;
+    }

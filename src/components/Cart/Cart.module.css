@@ -1,0 +1,71 @@
+/* filename: src/components/Cart/Cart.module.css */
+
+.cartContainer {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: var(--secondary-bg-color);
+  border-radius: var(--border-radius);
+}
+
+.cartItem {
+  background-color: var(--secondary-bg-color);
+  color: var(--primary-text-color);
+  padding: var(--padding-standard);
+  border-radius: var(--border-radius);
+  box-shadow: var(--box-shadow);
+  max-width: 300px; /* Reduce the card size */
+  text-align: center;
+  margin: 1rem auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.cartItem img {
+  width: 100%;  /* Keep the image at 100% of the card width */
+  height: auto;
+  object-fit: cover;
+  border-radius: var(--border-radius);
+}
+
+.cartItemDetails {
+  padding: 1rem;
+  flex-grow: 1;
+}
+
+.cartItemControls {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+
+.cartItemControls button {
+  padding: 0.5rem 1rem;
+  background-color: var(--accent-color); /* General button color */
+  color: var(--lightest-color); /* Text color */
+  border: none;
+  cursor: pointer;
+  border-radius: var(--border-radius);
+}
+
+.removeButton {
+  background-color: var(--accent-color); /* Default button styling */
+  color: var(--lightest-color); /* Make the "Sacar del carrito" button normal */
+}
+
+.cartSummary {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.checkoutButton {
+  padding: 1rem 2rem;
+  background-color: var(--accent-color);
+  color: var(--lightest-color);
+  border: none;
+  cursor: pointer;
+  border-radius: var(--border-radius);
+}

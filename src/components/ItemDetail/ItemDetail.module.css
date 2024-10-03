@@ -1,34 +1,57 @@
+/* filename: src/components/ItemDetail/ItemDetail.module.css */
+
 .card {
-    background-color: var(--secondary-bg-color);
-    color: var(--primary-text-color);
-    padding: var(--padding-standard);
-    border-radius: var(--border-radius);
-    box-shadow: var(--box-shadow);
-    width: calc(33.33% - 2rem);
-    max-width: 300px;
-    text-align: center;
-    margin: 1rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    height: 100%;
+  background-color: var(--secondary-bg-color);
+  color: var(--primary-text-color);
+  padding: var(--padding-standard);
+  border-radius: var(--border-radius);
+  box-shadow: var(--box-shadow);
+  width: calc(33.33% - 2rem);
+  max-width: 300px;
+  text-align: center;
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
 }
 
 .itemImage {
-    width: var(--img-width);
-    height: var(--img-height-auto);
-    border-radius: var(--border-radius);
+  width: var(--img-width);
+  height: var(--img-height-auto);
+  border-radius: var(--border-radius);
 }
 
 .itemPriceDisplay {
-    text-align: center;
-    font-size: 15px;
-    color: var(--lightest-color);
-    height: 50px;
-    width: 220px;
+  text-align: center;
+  font-size: 15px;
+  color: var(--lightest-color);
+  height: 50px;
+  width: 278px;
+  margin-top: 5px;
 }
 
 .itemStock {
-    font-size: 0.9rem;
-    color: var(--text-color);
+  font-size: 0.9rem;
+  color: var(--text-color);
+}
+
+.addedToCartMessage {
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.goToCartButton {
+  display: inline-block;
+  margin-top: 0.5rem;
+  padding: var(--btn-padding);
+  background-color: var(--accent-color);
+  color: var(--lightest-color);
+  text-decoration: none;
+  border-radius: var(--border-radius);
+  cursor: pointer;
+}
+
+.goToCartButton:hover {
+  background-color: var(--lighter-color);
 }

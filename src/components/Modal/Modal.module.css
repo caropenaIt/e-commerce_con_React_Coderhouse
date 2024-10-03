@@ -1,0 +1,49 @@
+/* filename: src/components/Modal/Modal.module.css */
+.modalOverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(26, 22, 37, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .modalContent {
+    background-color: var(--secondary-bg-color);
+    padding: 2rem;
+    border-radius: var(--border-radius);
+    text-align: center;
+    color: var(--lightest-color);
+    max-width: 500px;
+    width: 90%;
+  }
+  
+  .buttonGroup {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+  }
+  
+  .confirmButton {
+    background-color: var(--accent-color);
+    color: var(--lightest-color);
+    padding: var(--btn-padding);
+    border: none;
+    cursor: pointer;
+    border-radius: var(--border-radius);
+  }
+  
+  .cancelButton {
+    background-color: var(--lighter-color);
+    color: var(--lightest-color);
+    padding: var(--btn-padding);
+    border: none;
+    cursor: pointer;
+    border-radius: var(--border-radius);
+  }
+  
