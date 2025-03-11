@@ -55,3 +55,30 @@
 .goToCartButton:hover {
   background-color: var(--lighter-color);
 }
+
+/* RESPONSIVE */
+@media (min-width: 320px) and (max-width: 550px){
+  .card{
+    width: 300px;
+  }
+}
+
+@media (min-width: 551px) and (max-width: 750px){
+  .card{
+    width: 300px;
+  }
+  .itemPriceDisplay{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+}
+
+@media(min-width: 751px) and (max-width: 950px){
+  .itemPriceDisplay{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 210px;
+    }
+}

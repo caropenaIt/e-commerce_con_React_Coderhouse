@@ -1,11 +1,10 @@
 /* filename: src/components/Cart/Cart.module.css */
 
 .cartContainer {
-  max-width: 1200px;
+
   margin: 0 auto;
   padding: 2rem;
-  background-color: var(--secondary-bg-color);
-  border-radius: var(--border-radius);
+
 }
 
 .cartItem {
@@ -38,6 +37,7 @@
   display: flex;
   justify-content: space-between;
   margin-top: 1rem;
+  padding: 10px;
 }
 
 .cartItemControls button {

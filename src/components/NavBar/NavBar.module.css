@@ -41,3 +41,24 @@
         box-shadow: 2px 2px 2px 4px orangered;
         border-bottom: 2px solid orangered;
     }
+
+    /* RESPONSIVE */
+    @media  (min-width: 320px) and (max-width: 550px){
+        .navContainer{
+            gap: 5px;
+            flex-wrap: wrap;
+        }
+        .navLinks{
+            flex-direction: column;
+        }
+    }
+
+    @media (min-width: 551px) and (max-width: 750px){
+        .navContainer{
+            gap: 5px;
+            flex-wrap: wrap;
+        }
+        .navLinks{
+            flex-direction: column;
+        }
+    }
